@@ -1,4 +1,5 @@
-function search(nums: number[], target: number): number {
+
+function binarySearch(nums: number[], target: number): number {
   let lo = 0;
   let hi = nums.length - 1;
 
@@ -19,5 +20,5 @@ function search(nums: number[], target: number): number {
   return -1;
 }
 
-console.log(search([-1, 0, 3, 5, 9, 12], 9)); // 4
-console.log(search([-1, 0, 3, 5, 9, 12], 2)); // -1
+console.log(binarySearch([-1, 0, 3, 5, 9, 12], 9)); // 4
+console.log(binarySearch([-1, 0, 3, 5, 9, 12], 2)); // -1

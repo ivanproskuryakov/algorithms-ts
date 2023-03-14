@@ -9,8 +9,8 @@
 // https://leetcode.com/problems/4sum/
 
 function fourSum(nums: number[], _target: number): number[][] {
-  const numbers:number[][] = [];
-  const hashses:string[] = []
+  const numbers: number[][] = [];
+  const hashses: string[] = []
 
   nums = nums.sort((a, b) => a - b);
 
@@ -31,7 +31,7 @@ function fourSum(nums: number[], _target: number): number[][] {
 
     const hash = answer.toString();
 
-    if (!hashses.includes(hash) && answer.length === 4 ) {
+    if (!hashses.includes(hash) && answer.length === 4) {
       numbers.push(answer);
       hashses.push(hash);
     }
