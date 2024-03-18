@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/design-hashmap/
+// Design a HashMap without using any built-in hash table libraries.
+
+
 class HMNode {
   public k: number;
   public v: number;

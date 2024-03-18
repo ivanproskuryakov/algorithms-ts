@@ -8,7 +8,7 @@
 
 // https://github.com/jasonmauss/LeetCode/blob/main/TwoSum/TypeScript/TwoSum.ts
 
-function twoSum(nums: number[], target: number): number[] {
+function twoNumbers(nums: number[], target: number): number[] {
   const output: number[] = [];
 
   for (let first = 0; first < nums.length; first++) {
@@ -29,6 +29,6 @@ function twoSum(nums: number[], target: number): number[] {
   return output;
 }
 
-console.log(twoSum([2, 7, 11, 15], 9));
-console.log(twoSum([3, 2, 4], 9));
-console.log(twoSum([3, 3], 6));
+console.log(twoNumbers([2, 7, 11, 15], 9));
+console.log(twoNumbers([3, 2, 4], 9));
+console.log(twoNumbers([3, 3], 6));

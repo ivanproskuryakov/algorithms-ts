@@ -15,7 +15,7 @@ function fourSum(nums: number[], _target: number): number[][] {
   nums = nums.sort((a, b) => a - b);
 
   for (let i = 0; i < nums.length; i++) {
-    let answer: number[] = [];
+    const answer: number[] = [];
 
     for (let x = 0; x < nums.length; x++) {
       if (x !== i) {
