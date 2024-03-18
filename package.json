@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "alogrithms in typescript",
   "engines": {
-    "node": "^14"
+    "node": "^16"
   },
   "scripts": {
     "dev": "HTTPS=true NODE_ENV=development ts-node-dev --inspect --respawn -- ",
