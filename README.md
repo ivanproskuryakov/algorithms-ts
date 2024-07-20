@@ -1,4 +1,5 @@
 ### Data Structures
+
 ```
 Set
 	Store unique values, without any particular order
@@ -65,10 +66,8 @@ Graph
 			A Heap is a special Tree-based data structure in which the tree is a complete binary tree.
 ```
 
-Patterns
-https://en.wikipedia.org/wiki/Software_design_pattern#cite_note-PoEAA-15
-
 ### Algorythms
+
 ```
 Search
 	Graph
@@ -108,18 +107,4 @@ Search
 Optimisation
 	Linear programming
 
-
-Algorithms
-- https://leetcode.com/problemset/
-	- March
-
 ```
-
-**String**
-https://leetcode.com/tag/string/
-
-Integer to Roman
-https://leetcode.com/problems/roman-to-integer/solutions/
-
-Longest Common Prefix
-https://leetcode.com/problems/longest-common-prefix/
